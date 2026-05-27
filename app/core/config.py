@@ -11,19 +11,19 @@ from typing import Optional
 class Settings(BaseSettings):
     # ── Database (Neon PostgreSQL) ──
     database_url: str = Field(
-        default="postgresql+asyncpg://peanut:peanut@localhost:5432/peanut_db",
+        default="",
         alias="DATABASE_URL",
     )
     database_url_sync: str = Field(
-        default="postgresql://peanut:peanut@localhost:5432/peanut_db",
+        default="",
         alias="DATABASE_URL_SYNC",
     )
 
     # ── Redis (Upstash) ──
-    redis_url: str = Field(default="redis://localhost:6379", alias="REDIS_URL")
+    redis_url: str = Field(default="", alias="REDIS_URL")
 
     # ── Qdrant (Qdrant Cloud) ──
-    qdrant_url: str = Field(default="http://localhost:6333", alias="QDRANT_URL")
+    qdrant_url: str = Field(default="", alias="QDRANT_URL")
     qdrant_api_key: str = Field(default="", alias="QDRANT_API_KEY")
 
     # ── Groq / LLM ──
@@ -68,7 +68,7 @@ class Settings(BaseSettings):
     app_env: str = Field(default="development", alias="APP_ENV")
     log_level: str = Field(default="INFO", alias="LOG_LEVEL")
     cors_origins: str = Field(
-        default="http://localhost:5173,http://127.0.0.1:5173",
+        default="",
         alias="CORS_ORIGINS",
     )
     # Render provides the public URL via RENDER_EXTERNAL_URL
