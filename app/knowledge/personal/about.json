@@ -1,0 +1,81 @@
+{
+  "knowledge/personal/about.json": {
+    "id": "personal_about_aquib",
+    "type": "personal",
+    "title": "Pula Aquib Younis",
+    "summary": "AI systems engineering enthusiast focused on RAG systems, semantic retrieval, backend engineering, and agentic AI workflows.",
+    "description": "Computer Science student and AI systems engineer focused on semantic retrieval systems, vector databases, backend engineering, local LLM orchestration, and agentic AI systems. Interested in futuristic AI applications, automation systems, and scalable semantic architectures.",
+    "tags": [
+      "AI Engineering",
+      "Backend Engineering",
+      "RAG",
+      "Agentic AI",
+      "Semantic Retrieval",
+      "LLMs"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "LangGraph",
+      "MongoDB",
+      "ChromaDB",
+      "Ollama"
+    ],
+    "architecture": [
+      "RAG Systems",
+      "Semantic Retrieval",
+      "Backend APIs",
+      "Multi-Agent Systems"
+    ],
+    "concepts": [
+      "AI Systems Engineering",
+      "Semantic Search",
+      "Automation",
+      "Contextual AI"
+    ],
+    "keywords": [
+      "ai systems engineer",
+      "rag developer",
+      "semantic retrieval engineer",
+      "backend ai"
+    ],
+    "semantic_terms": [
+      "context engineering",
+      "vector retrieval systems",
+      "semantic orchestration"
+    ],
+    "retrieval_terms": [
+      "AI systems profile",
+      "RAG engineering background",
+      "semantic backend developer"
+    ],
+    "features": [
+      "RAG systems engineering",
+      "Agentic workflows",
+      "Semantic retrieval design",
+      "Backend architecture understanding"
+    ],
+    "tools": [
+      "GitHub",
+      "AWS",
+      "Google Cloud",
+      "Ollama"
+    ],
+    "related_topics": [
+      "AI Engineering",
+      "Distributed Systems",
+      "Semantic Search",
+      "Automation Systems"
+    ],
+    "related_projects": [
+      "project_peanut_2",
+      "project_autonomous_qa_agent",
+      "project_fresher_nav"
+    ],
+    "experience_level": "advanced_intermediate",
+    "role": "AI Systems Engineer",
+    "year": 2026,
+    "priority": 10
+  }
+}

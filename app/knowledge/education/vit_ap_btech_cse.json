@@ -1,0 +1,114 @@
+{
+  "id": "education_vit_ap_btech_cse",
+  "type": "education",
+  "title": "Bachelor of Technology in Computer Science and Engineering",
+  "institution": "Vellore Institute of Technology - AP",
+  "short_name": "VIT-AP",
+  "location": "Amaravati, Andhra Pradesh, India",
+  "degree": "B.Tech",
+  "specialization": "Computer Science and Engineering",
+  "academic_performance": {
+    "cgpa": "8.64/10"
+  },
+  "summary": "Computer Science and Engineering undergraduate focused on AI systems engineering, Retrieval-Augmented Generation systems, semantic retrieval pipelines, backend engineering, and distributed AI workflows.",
+  "description": "Pursuing Bachelor of Technology in Computer Science and Engineering with practical focus on AI engineering, backend systems, semantic retrieval architectures, vector databases, automation systems, cloud deployment, and local LLM orchestration through hands-on projects and research experimentation.",
+  "tags": [
+    "Education",
+    "Computer Science",
+    "AI Engineering",
+    "Backend Engineering",
+    "Semantic Retrieval",
+    "RAG",
+    "Distributed Systems"
+  ],
+  "technologies": [
+    "Python",
+    "Java",
+    "MongoDB",
+    "FastAPI",
+    "LangChain",
+    "ChromaDB",
+    "Ollama",
+    "React.js",
+    "Node.js"
+  ],
+  "architecture": [
+    "RAG Systems",
+    "Semantic Retrieval Pipelines",
+    "Backend APIs",
+    "Distributed AI Systems",
+    "Vector Search Workflows"
+  ],
+  "concepts": [
+    "Computer Science Engineering",
+    "Artificial Intelligence",
+    "Semantic Search",
+    "Backend Engineering",
+    "Automation Systems",
+    "Cloud Computing",
+    "Vector Databases",
+    "Agentic AI"
+  ],
+  "keywords": [
+    "vit ap",
+    "computer science engineering",
+    "btech cse",
+    "ai engineering student",
+    "backend engineering"
+  ],
+  "semantic_terms": [
+    "systems engineering foundation",
+    "semantic AI workflows",
+    "retrieval-oriented architectures",
+    "distributed backend systems",
+    "context-aware AI systems"
+  ],
+  "retrieval_terms": [
+    "computer science education",
+    "AI engineering academic background",
+    "backend systems student",
+    "RAG engineering foundation"
+  ],
+  "skills_acquired": [
+    "Backend API Development",
+    "Semantic Retrieval Engineering",
+    "RAG Architecture",
+    "Vector Database Integration",
+    "Frontend Backend Integration",
+    "Cloud Deployment",
+    "Automation Engineering"
+  ],
+  "tools": [
+    "GitHub",
+    "AWS",
+    "Google Colab",
+    "MongoDB",
+    "FastAPI",
+    "LangChain"
+  ],
+  "related_topics": [
+    "AI Engineering",
+    "Semantic Retrieval",
+    "Distributed Systems",
+    "Backend APIs",
+    "Cloud Infrastructure"
+  ],
+  "related_projects": [
+    "project_peanut_2",
+    "project_autonomous_qa_agent",
+    "project_fresher_nav",
+    "project_commander_nova",
+    "project_smart_notes_ai"
+  ],
+  "experience_level": "undergraduate_engineer",
+  "role": "Computer Science Student",
+  "year": 2022,
+  "priority": 10,
+  "metadata": {
+    "semantic_search_enabled": true,
+    "metadata_filtering_enabled": true,
+    "hybrid_retrieval_enabled": true,
+    "vector_embedding_ready": true,
+    "knowledge_graph_expandable": true
+  }
+}

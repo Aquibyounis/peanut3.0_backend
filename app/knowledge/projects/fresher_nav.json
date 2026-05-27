@@ -1,0 +1,191 @@
+{
+  "id": "project_fresher_nav",
+  "type": "project",
+  "title": "Fresher Nav",
+  "short_title": "VIT-AP AI Fresher Assistant",
+  "project_category": "AI Assistant",
+  "organization_context": "VIT-AP University",
+  "year": 2025,
+  "priority": 10,
+  "experience_level": "advanced_intermediate",
+  "role": "AI Systems Engineer",
+  "status": "completed",
+  "summary": "AI-powered university chatbot for VIT-AP students using Retrieval-Augmented Generation, semantic retrieval, local LLMs, and vector databases for contextual campus assistance.",
+  "description": "Built an AI-powered university assistant designed specifically for VIT-AP students to simplify access to campus-related information, academic guidance, fresher onboarding support, university procedures, and contextual query answering. The system uses Retrieval-Augmented Generation pipelines with semantic retrieval workflows powered by ChromaDB and local LLM inference using Ollama. Designed to provide contextual, low-latency, privacy-focused AI assistance for college students.",
+  "problem_statement": "Freshers and students often struggle to find accurate and contextual university-related information such as academic procedures, departments, onboarding guidance, and campus workflows. Traditional search systems lack contextual understanding and semantic retrieval capabilities.",
+  "solution": "Developed a semantic AI assistant capable of retrieving contextual university information using vector embeddings, Retrieval-Augmented Generation, local LLM orchestration, and semantic search pipelines.",
+  "tags": [
+    "AI",
+    "RAG",
+    "Semantic Retrieval",
+    "LangChain",
+    "Ollama",
+    "ChromaDB",
+    "LLMs",
+    "University Chatbot",
+    "Contextual AI",
+    "Semantic Search",
+    "Vector Databases",
+    "Local LLMs",
+    "AI Assistant"
+  ],
+  "technologies": [
+    "Python",
+    "LangChain",
+    "Ollama",
+    "ChromaDB",
+    "React.js",
+    "FastAPI",
+    "LLMs",
+    "Vector Embeddings"
+  ],
+  "architecture": {
+    "system_design": [
+      "Retrieval-Augmented Generation Pipeline",
+      "Semantic Retrieval Workflow",
+      "Vector Database Architecture",
+      "Local LLM Inference",
+      "Frontend Backend Integration"
+    ],
+    "backend": [
+      "FastAPI",
+      "Semantic Retrieval APIs",
+      "Context Injection Pipeline"
+    ],
+    "frontend": [
+      "React.js",
+      "Responsive Chat Interface",
+      "Student Query UI"
+    ],
+    "retrieval_pipeline": [
+      "Document Chunking",
+      "Embedding Generation",
+      "Vector Similarity Search",
+      "Context Retrieval",
+      "Prompt Grounding"
+    ],
+    "vector_database": [
+      "ChromaDB"
+    ],
+    "llm_layer": [
+      "Ollama",
+      "Local LLM Inference"
+    ]
+  },
+  "concepts": [
+    "Retrieval-Augmented Generation",
+    "Semantic Search",
+    "Vector Embeddings",
+    "Prompt Grounding",
+    "Local LLM Systems",
+    "Context Injection",
+    "Contextual AI",
+    "University Information Systems"
+  ],
+  "features": [
+    "Context-aware student query answering",
+    "University onboarding assistance",
+    "Semantic search retrieval",
+    "Low-latency contextual responses",
+    "Local LLM inference using Ollama",
+    "Vector-based information retrieval",
+    "Campus information assistance",
+    "Academic guidance support"
+  ],
+  "responsibilities": [
+    "Designed RAG architecture",
+    "Integrated ChromaDB vector workflows",
+    "Implemented semantic retrieval pipeline",
+    "Built FastAPI backend services",
+    "Integrated local LLM workflows using Ollama",
+    "Developed React.js frontend interface",
+    "Designed contextual query workflows"
+  ],
+  "tools": [
+    "LangChain",
+    "Ollama",
+    "ChromaDB",
+    "FastAPI",
+    "React.js",
+    "GitHub"
+  ],
+  "knowledge_sources": [
+    "University-related contextual datasets",
+    "Campus information workflows",
+    "Student onboarding information"
+  ],
+  "retrieval_metadata": {
+    "embedding_enabled": true,
+    "semantic_search_enabled": true,
+    "metadata_filtering_enabled": true,
+    "hybrid_retrieval_ready": true,
+    "reranking_ready": true,
+    "knowledge_graph_expandable": true
+  },
+  "semantic_entities": [
+    "Campus Information",
+    "Academic Guidance",
+    "Student Support",
+    "University Workflows",
+    "Semantic Retrieval",
+    "AI Assistance"
+  ],
+  "keywords": [
+    "fresher nav",
+    "vit ap chatbot",
+    "university ai assistant",
+    "rag chatbot",
+    "semantic search assistant",
+    "ollama chatbot",
+    "langchain university assistant",
+    "student rag assistant"
+  ],
+  "semantic_terms": [
+    "context-aware university assistant",
+    "retrieval-grounded chatbot",
+    "semantic academic assistant",
+    "vector-powered university retrieval",
+    "contextual student support"
+  ],
+  "retrieval_terms": [
+    "VIT-AP AI chatbot",
+    "university RAG system",
+    "student semantic assistant",
+    "college AI assistant",
+    "campus semantic retrieval"
+  ],
+  "related_topics": [
+    "Semantic Retrieval",
+    "Vector Databases",
+    "Local LLM Systems",
+    "AI Assistants",
+    "RAG Systems",
+    "Contextual AI"
+  ],
+  "related_projects": [
+    "project_peanut_2",
+    "project_commander_nova",
+    "project_autonomous_qa_agent"
+  ],
+  "scalability_considerations": [
+    "Semantic vector scaling",
+    "Low-latency retrieval optimization",
+    "Modular retrieval architecture",
+    "Context memory extensibility"
+  ],
+  "future_expansion": [
+    "Multi-agent orchestration",
+    "Voice-based assistance",
+    "Student personalization",
+    "Realtime university event integration",
+    "Distributed semantic retrieval"
+  ],
+  "metadata": {
+    "semantic_search_enabled": true,
+    "metadata_filtering_enabled": true,
+    "hybrid_retrieval_enabled": true,
+    "vector_embedding_ready": true,
+    "knowledge_graph_expandable": true,
+    "production_rag_ready": true
+  }
+}

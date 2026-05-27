@@ -1,0 +1,50 @@
+{
+  "id": "skills_distributed_systems",
+  "type": "skills",
+  "title": "Distributed Systems Skills",
+  "summary": "Knowledge of distributed AI systems, semantic workflows, and scalable retrieval-oriented architectures.",
+  "description": "Experience designing scalable AI workflows, semantic retrieval pipelines, distributed backend concepts, and orchestrated AI systems.",
+  "tags": [
+    "Distributed Systems",
+    "AI Systems",
+    "Semantic Retrieval",
+    "Scalable Architectures"
+  ],
+  "technologies": [
+    "LangGraph",
+    "FastAPI",
+    "AWS"
+  ],
+  "concepts": [
+    "Workflow Orchestration",
+    "Distributed Retrieval",
+    "Scalable AI Systems"
+  ],
+  "keywords": [
+    "distributed systems",
+    "scalable ai",
+    "retrieval architecture"
+  ],
+  "semantic_terms": [
+    "distributed orchestration",
+    "scalable retrieval"
+  ],
+  "retrieval_terms": [
+    "AI distributed systems",
+    "semantic orchestration"
+  ],
+  "features": [
+    "Scalable workflows",
+    "Distributed orchestration"
+  ],
+  "tools": [
+    "LangGraph",
+    "AWS"
+  ],
+  "related_projects": [
+    "project_peanut_2"
+  ],
+  "experience_level": "intermediate",
+  "role": "AI Systems Engineer",
+  "priority": 8
+}

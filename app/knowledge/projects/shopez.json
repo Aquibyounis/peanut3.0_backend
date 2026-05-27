@@ -1,0 +1,70 @@
+{
+  "id": "project_shopez",
+  "type": "project",
+  "title": "ShopEZ",
+  "summary": "MERN-based e-commerce platform with frontend engineering, backend APIs, and MongoDB integration.",
+  "description": "Contributed to the development of a MERN-based e-commerce application with responsive frontend engineering and backend API integrations.",
+  "tags": [
+    "MERN",
+    "MongoDB",
+    "React",
+    "Node.js",
+    "Express"
+  ],
+  "technologies": [
+    "MongoDB",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "JavaScript"
+  ],
+  "architecture": [
+    "MERN Stack",
+    "REST APIs",
+    "Frontend Backend Integration"
+  ],
+  "concepts": [
+    "Full Stack Engineering",
+    "Database Systems",
+    "API Integration"
+  ],
+  "keywords": [
+    "mern ecommerce",
+    "react frontend",
+    "mongodb backend"
+  ],
+  "semantic_terms": [
+    "frontend backend workflows",
+    "database-driven ecommerce"
+  ],
+  "retrieval_terms": [
+    "mern ecommerce platform",
+    "full stack shopping app"
+  ],
+  "features": [
+    "Responsive UI",
+    "Backend API integration",
+    "MongoDB workflows"
+  ],
+  "responsibilities": [
+    "Frontend development",
+    "Backend API integration",
+    "MongoDB integration"
+  ],
+  "tools": [
+    "React",
+    "MongoDB",
+    "Node.js"
+  ],
+  "related_topics": [
+    "MERN Stack",
+    "Database Systems"
+  ],
+  "related_projects": [
+    "experience_smartbridge_mern"
+  ],
+  "experience_level": "intermediate",
+  "role": "MERN Developer",
+  "year": 2024,
+  "priority": 7
+}

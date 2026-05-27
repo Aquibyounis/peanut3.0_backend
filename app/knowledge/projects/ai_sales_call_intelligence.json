@@ -1,0 +1,74 @@
+{
+  "id": "project_ai_sales_call_intelligence",
+  "type": "project",
+  "title": "AI Sales Call Intelligence",
+  "summary": "AI-powered sales call intelligence system built during a solo AI hackathon using LLMs, RAG, and ChromaDB.",
+  "description": "Built an AI pipeline capable of extracting objections, sentiment, competitor mentions, topics, and next-best actions from sales call transcripts using LLMs and semantic retrieval.",
+  "tags": [
+    "AI",
+    "LLMs",
+    "RAG",
+    "ChromaDB",
+    "Semantic Retrieval",
+    "Hackathon"
+  ],
+  "technologies": [
+    "Python",
+    "LangChain",
+    "LLMs",
+    "ChromaDB",
+    "Flask",
+    "FastAPI"
+  ],
+  "architecture": [
+    "LLM Pipeline",
+    "Semantic Retrieval",
+    "RAG Workflow"
+  ],
+  "concepts": [
+    "Sentiment Analysis",
+    "Transcript Processing",
+    "Schema Grounding"
+  ],
+  "keywords": [
+    "sales call ai",
+    "semantic extraction",
+    "llm analytics"
+  ],
+  "semantic_terms": [
+    "context-aware extraction",
+    "grounded llm outputs"
+  ],
+  "retrieval_terms": [
+    "sales intelligence rag",
+    "call transcript analysis"
+  ],
+  "features": [
+    "Topic extraction",
+    "Sentiment analysis",
+    "Competitor detection",
+    "Next-best-action generation"
+  ],
+  "responsibilities": [
+    "Designed LLM extraction workflow",
+    "Integrated ChromaDB retrieval",
+    "Built semantic analysis pipeline"
+  ],
+  "tools": [
+    "LangChain",
+    "FastAPI",
+    "Flask"
+  ],
+  "related_topics": [
+    "Semantic Retrieval",
+    "LLM Analytics",
+    "Automation"
+  ],
+  "related_projects": [
+    "project_autonomous_qa_agent"
+  ],
+  "experience_level": "advanced_intermediate",
+  "role": "AI Engineer",
+  "year": 2026,
+  "priority": 9
+}

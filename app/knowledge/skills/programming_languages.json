@@ -1,0 +1,54 @@
+{
+  "id": "skills_programming_languages",
+  "type": "skills",
+  "title": "Programming Languages",
+  "summary": "Programming languages used across AI engineering, backend systems, and full stack applications.",
+  "description": "Programming languages applied in backend engineering, AI systems, semantic retrieval pipelines, and full stack development workflows.",
+  "tags": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "Programming"
+  ],
+  "technologies": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "SQL"
+  ],
+  "concepts": [
+    "Backend Development",
+    "AI Systems",
+    "Full Stack Development"
+  ],
+  "keywords": [
+    "python",
+    "java",
+    "javascript"
+  ],
+  "semantic_terms": [
+    "backend programming",
+    "AI application development"
+  ],
+  "retrieval_terms": [
+    "AI programming languages",
+    "backend developer stack"
+  ],
+  "features": [
+    "Backend programming",
+    "AI workflow development"
+  ],
+  "tools": [
+    "Python",
+    "JavaScript",
+    "Java"
+  ],
+  "related_projects": [
+    "project_peanut_2",
+    "project_autonomous_qa_agent",
+    "project_shopez"
+  ],
+  "experience_level": "advanced_intermediate",
+  "role": "Software Engineer",
+  "priority": 9
+}

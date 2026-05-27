@@ -1,0 +1,61 @@
+{
+  "id": "project_weather_detection_yolov8",
+  "type": "project",
+  "title": "Weather Detection using YOLOv8",
+  "summary": "Computer vision weather classification system using YOLOv8 and custom atmospheric datasets.",
+  "description": "Developed a real-time weather classification model using YOLOv8 trained on custom datasets for atmospheric condition detection including rain, fog, and sunny weather.",
+  "tags": [
+    "Computer Vision",
+    "YOLOv8",
+    "AI",
+    "Python"
+  ],
+  "technologies": [
+    "YOLOv8",
+    "Python",
+    "Google Colab"
+  ],
+  "architecture": [
+    "Computer Vision Pipeline",
+    "Object Detection Workflow"
+  ],
+  "concepts": [
+    "Object Detection",
+    "Dataset Training",
+    "Model Fine-Tuning"
+  ],
+  "keywords": [
+    "weather detection",
+    "yolov8",
+    "computer vision"
+  ],
+  "semantic_terms": [
+    "vision inference",
+    "real-time weather classification"
+  ],
+  "retrieval_terms": [
+    "YOLO weather system",
+    "computer vision project"
+  ],
+  "features": [
+    "Real-time weather detection",
+    "Custom dataset training"
+  ],
+  "responsibilities": [
+    "Trained detection model",
+    "Optimized dataset workflows"
+  ],
+  "tools": [
+    "Google Colab",
+    "Python"
+  ],
+  "related_topics": [
+    "Computer Vision",
+    "AI Detection Systems"
+  ],
+  "related_projects": [],
+  "experience_level": "intermediate",
+  "role": "Computer Vision Engineer",
+  "year": 2023,
+  "priority": 7
+}

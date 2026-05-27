@@ -1,0 +1,396 @@
+{
+  "id": "certifications_master",
+  "type": "certifications",
+  "title": "Professional Certifications",
+  "summary": "Certification knowledge entities extracted from portfolio and resume data optimized for semantic retrieval and metadata filtering.",
+  "description": "Structured certification metadata system containing AI, MERN, MongoDB, AWS, and project leadership certifications extracted from uploaded portfolio screenshots and resumes.",
+  "tags": [
+    "Certifications",
+    "AI",
+    "Cloud",
+    "MERN",
+    "MongoDB",
+    "Backend Engineering"
+  ],
+  "semantic_search_enabled": true,
+  "metadata_filtering_enabled": true,
+  "hybrid_retrieval_enabled": true,
+  "certifications": [
+    {
+      "id": "cert_oracle_generative_ai",
+      "type": "certification",
+      "title": "Oracle Generative AI",
+      "provider": "Oracle",
+      "year": 2025,
+      "priority": 10,
+      "experience_level": "advanced_intermediate",
+      "summary": "Oracle Generative AI certification focused on LLMs and GenAI concepts.",
+      "description": "Completed Oracle Generative AI certification focused on foundational concepts related to Generative AI, LLM systems, semantic workflows, and AI engineering.",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "LLMs",
+        "Oracle",
+        "Semantic Retrieval"
+      ],
+      "domain": [
+        "AI Engineering",
+        "LLM Systems"
+      ],
+      "technologies": [
+        "LLMs",
+        "Generative AI"
+      ],
+      "concepts": [
+        "Generative AI",
+        "LLM Engineering",
+        "Semantic AI"
+      ],
+      "keywords": [
+        "oracle genai",
+        "llm certification",
+        "generative ai"
+      ],
+      "semantic_terms": [
+        "AI workflow understanding",
+        "semantic AI systems"
+      ],
+      "retrieval_terms": [
+        "AI certifications",
+        "LLM certifications",
+        "Generative AI learning"
+      ],
+      "tools": [
+        "LLMs"
+      ],
+      "related_topics": [
+        "AI Engineering",
+        "LLM Systems"
+      ],
+      "related_projects": [
+        "project_peanut_2",
+        "project_fresher_nav"
+      ]
+    },
+    {
+      "id": "cert_mern_full_stack",
+      "type": "certification",
+      "title": "MERN Full Stack",
+      "provider": "SmartInternz",
+      "year": 2024,
+      "priority": 9,
+      "experience_level": "intermediate",
+      "summary": "MERN full stack certification focused on frontend-backend integration and database workflows.",
+      "description": "Completed MERN full stack certification involving React.js frontend engineering, backend API integration using Node.js and Express.js, and MongoDB database workflows.",
+      "tags": [
+        "MERN",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Full Stack Development",
+        "Backend Engineering"
+      ],
+      "domain": [
+        "Full Stack Engineering",
+        "Backend Engineering"
+      ],
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JavaScript"
+      ],
+      "concepts": [
+        "MERN Stack",
+        "REST APIs",
+        "Frontend Backend Integration"
+      ],
+      "keywords": [
+        "mern certification",
+        "full stack web development",
+        "mongodb react node"
+      ],
+      "semantic_terms": [
+        "frontend backend workflows",
+        "database-driven applications"
+      ],
+      "retrieval_terms": [
+        "MERN certifications",
+        "React backend certifications",
+        "full stack certificates"
+      ],
+      "tools": [
+        "React.js",
+        "Node.js",
+        "MongoDB"
+      ],
+      "related_topics": [
+        "Frontend Engineering",
+        "Backend APIs",
+        "Database Systems"
+      ],
+      "related_projects": [
+        "project_shopez"
+      ]
+    },
+    {
+      "id": "cert_mongodb_certified",
+      "type": "certification",
+      "title": "MongoDB Certified",
+      "provider": "MongoDB",
+      "year": 2024,
+      "priority": 9,
+      "experience_level": "intermediate",
+      "summary": "MongoDB certification focused on NoSQL databases and backend integration.",
+      "description": "Completed MongoDB certification through self-paced learning focused on database systems, CRUD operations, and backend database connectivity.",
+      "tags": [
+        "MongoDB",
+        "NoSQL",
+        "Database Systems",
+        "Backend Engineering"
+      ],
+      "domain": [
+        "Database Engineering",
+        "Backend Systems"
+      ],
+      "technologies": [
+        "MongoDB",
+        "NoSQL"
+      ],
+      "concepts": [
+        "CRUD Operations",
+        "Database Integration",
+        "Backend Persistence"
+      ],
+      "keywords": [
+        "mongodb certification",
+        "nosql databases",
+        "database systems"
+      ],
+      "semantic_terms": [
+        "database persistence",
+        "backend storage systems"
+      ],
+      "retrieval_terms": [
+        "MongoDB certifications",
+        "database certifications",
+        "NoSQL learning"
+      ],
+      "tools": [
+        "MongoDB"
+      ],
+      "related_topics": [
+        "Database Engineering",
+        "Backend APIs"
+      ],
+      "related_projects": [
+        "project_shopez"
+      ]
+    },
+    {
+      "id": "cert_team_project_lead",
+      "type": "certification",
+      "title": "Team Project Lead",
+      "provider": "SmartInternz",
+      "year": 2024,
+      "priority": 7,
+      "experience_level": "intermediate",
+      "summary": "Project leadership certification recognizing contribution to collaborative engineering projects.",
+      "description": "Recognition certificate awarded for participating and contributing as part of a collaborative project team during engineering project development.",
+      "tags": [
+        "Leadership",
+        "Project Management",
+        "Team Collaboration",
+        "Engineering"
+      ],
+      "domain": [
+        "Project Leadership",
+        "Engineering Collaboration"
+      ],
+      "technologies": [],
+      "concepts": [
+        "Team Collaboration",
+        "Project Contribution"
+      ],
+      "keywords": [
+        "team project lead",
+        "engineering collaboration"
+      ],
+      "semantic_terms": [
+        "collaborative engineering",
+        "project teamwork"
+      ],
+      "retrieval_terms": [
+        "leadership certifications",
+        "team engineering"
+      ],
+      "tools": [],
+      "related_topics": [
+        "Engineering Teams",
+        "Project Collaboration"
+      ],
+      "related_projects": [
+        "project_shopez"
+      ]
+    },
+    {
+      "id": "cert_aws_cloud_architecture",
+      "type": "certification",
+      "title": "AWS Cloud Architecture",
+      "provider": "AWS Academy",
+      "year": 2024,
+      "priority": 8,
+      "experience_level": "intermediate",
+      "summary": "AWS cloud architecture certification focused on cloud infrastructure and deployment systems.",
+      "description": "Completed AWS Cloud Architecture certification focused on cloud systems, infrastructure hosting, deployment workflows, and distributed application environments.",
+      "tags": [
+        "AWS",
+        "Cloud",
+        "Cloud Architecture",
+        "Infrastructure",
+        "Deployment"
+      ],
+      "domain": [
+        "Cloud Engineering",
+        "Infrastructure Systems"
+      ],
+      "technologies": [
+        "AWS",
+        "Cloud Infrastructure"
+      ],
+      "concepts": [
+        "Cloud Deployment",
+        "Infrastructure Hosting",
+        "Distributed Systems"
+      ],
+      "keywords": [
+        "aws architecture",
+        "cloud engineering",
+        "infrastructure systems"
+      ],
+      "semantic_terms": [
+        "cloud-hosted systems",
+        "distributed infrastructure"
+      ],
+      "retrieval_terms": [
+        "AWS certifications",
+        "cloud architecture learning"
+      ],
+      "tools": [
+        "AWS"
+      ],
+      "related_topics": [
+        "Cloud Engineering",
+        "DevOps"
+      ],
+      "related_projects": [
+        "project_autonomous_qa_agent"
+      ]
+    },
+    {
+      "id": "cert_oracle_genai_badge",
+      "type": "certification",
+      "title": "Oracle GenAI Badge",
+      "provider": "Oracle",
+      "year": 2025,
+      "priority": 8,
+      "experience_level": "advanced_intermediate",
+      "summary": "Oracle GenAI badge recognizing self-paced learning in Generative AI concepts.",
+      "description": "Oracle GenAI badge earned through self-paced Generative AI learning focused on AI systems and LLM concepts.",
+      "tags": [
+        "AI",
+        "Generative AI",
+        "Oracle",
+        "LLMs"
+      ],
+      "domain": [
+        "AI Engineering"
+      ],
+      "technologies": [
+        "Generative AI",
+        "LLMs"
+      ],
+      "concepts": [
+        "Generative AI",
+        "LLM Systems"
+      ],
+      "keywords": [
+        "oracle genai badge",
+        "generative ai learning"
+      ],
+      "semantic_terms": [
+        "self-paced AI learning",
+        "LLM understanding"
+      ],
+      "retrieval_terms": [
+        "AI learning badges",
+        "Generative AI badges"
+      ],
+      "tools": [
+        "LLMs"
+      ],
+      "related_topics": [
+        "AI Engineering"
+      ],
+      "related_projects": [
+        "project_peanut_2"
+      ]
+    },
+    {
+      "id": "cert_aws_foundations",
+      "type": "certification",
+      "title": "AWS Foundations",
+      "provider": "AWS Academy",
+      "year": 2024,
+      "priority": 8,
+      "experience_level": "intermediate",
+      "summary": "AWS Foundations certification focused on cloud infrastructure and deployment concepts.",
+      "description": "Completed AWS Foundations certification covering cloud infrastructure concepts, AWS deployment systems, and scalable hosting fundamentals.",
+      "tags": [
+        "AWS",
+        "Cloud",
+        "Infrastructure",
+        "Deployment",
+        "Cloud Foundations"
+      ],
+      "domain": [
+        "Cloud Engineering",
+        "Infrastructure"
+      ],
+      "technologies": [
+        "AWS",
+        "Cloud Infrastructure"
+      ],
+      "concepts": [
+        "Cloud Foundations",
+        "Deployment Systems",
+        "Infrastructure Hosting"
+      ],
+      "keywords": [
+        "aws foundations",
+        "cloud deployment",
+        "cloud systems"
+      ],
+      "semantic_terms": [
+        "distributed cloud hosting",
+        "deployment architecture"
+      ],
+      "retrieval_terms": [
+        "AWS foundation certifications",
+        "cloud infrastructure learning"
+      ],
+      "tools": [
+        "AWS"
+      ],
+      "related_topics": [
+        "Cloud Engineering",
+        "Infrastructure Systems"
+      ],
+      "related_projects": [
+        "project_autonomous_qa_agent"
+      ]
+    }
+  ]
+}

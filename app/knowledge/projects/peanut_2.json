@@ -1,0 +1,86 @@
+{
+  "knowledge/projects/peanut_2.json": {
+    "id": "project_peanut_2",
+    "type": "project",
+    "title": "Peanut 2.0",
+    "summary": "Multi-agent RAG platform using LangGraph, local LLMs, semantic memory workflows, and MCP exploration.",
+    "description": "Architected a multi-agent AI system using LangGraph, local LLM workflows, semantic memory concepts, and retrieval orchestration. Integrated Telegram and Gmail workflows and explored Model Context Protocol concepts for long-term tool-aware memory systems.",
+    "tags": [
+      "AI",
+      "RAG",
+      "LangGraph",
+      "Agentic AI",
+      "Local LLMs",
+      "Memory Systems",
+      "Workflow Orchestration"
+    ],
+    "technologies": [
+      "LangGraph",
+      "Python",
+      "RAG",
+      "Local LLMs",
+      "Telegram APIs",
+      "Gmail Integration"
+    ],
+    "architecture": [
+      "Multi-Agent Architecture",
+      "Semantic Memory System",
+      "Workflow Orchestration",
+      "Agent Tool Routing"
+    ],
+    "concepts": [
+      "Agentic AI",
+      "Memory Persistence",
+      "Context Management",
+      "Tool Invocation",
+      "Long-Term Retrieval"
+    ],
+    "keywords": [
+      "langgraph agents",
+      "multi agent rag",
+      "semantic memory",
+      "local llm workflows"
+    ],
+    "semantic_terms": [
+      "agent orchestration",
+      "memory-aware retrieval",
+      "semantic workflow execution"
+    ],
+    "retrieval_terms": [
+      "LangGraph AI system",
+      "multi-agent retrieval",
+      "memory-based orchestration"
+    ],
+    "features": [
+      "Multi-agent orchestration",
+      "Memory-aware workflows",
+      "Telegram and Gmail ingestion",
+      "MCP experimentation"
+    ],
+    "responsibilities": [
+      "Designed multi-agent workflows",
+      "Architected memory systems",
+      "Integrated local LLM pipelines",
+      "Explored MCP architecture concepts"
+    ],
+    "tools": [
+      "LangGraph",
+      "Python",
+      "GitHub"
+    ],
+    "related_topics": [
+      "Agentic AI",
+      "Semantic Retrieval",
+      "Memory Systems",
+      "Workflow Automation"
+    ],
+    "related_projects": [
+      "project_autonomous_qa_agent",
+      "project_fresher_nav"
+    ],
+    "experience_level": "advanced_intermediate",
+    "role": "AI Systems Engineer",
+    "year": 2025,
+    "priority": 10
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "project_smart_notes_ai",
+  "type": "project",
+  "title": "Smart Notes AI",
+  "summary": "AI-powered note summarization platform using NLP models and Flask APIs.",
+  "description": "Built an AI summarization application capable of processing user-created notes and generating concise summaries using NLP workflows integrated with Flask APIs.",
+  "tags": [
+    "AI",
+    "NLP",
+    "Flask",
+    "Summarization"
+  ],
+  "technologies": [
+    "Python",
+    "Flask",
+    "NLP",
+    "MERN"
+  ],
+  "architecture": [
+    "NLP Pipeline",
+    "Flask Backend",
+    "AI Summarization"
+  ],
+  "concepts": [
+    "Natural Language Processing",
+    "Text Summarization",
+    "Backend AI Integration"
+  ],
+  "keywords": [
+    "ai summarizer",
+    "note summarization",
+    "nlp backend"
+  ],
+  "semantic_terms": [
+    "semantic compression",
+    "text abstraction"
+  ],
+  "retrieval_terms": [
+    "AI notes summarizer",
+    "Flask NLP project"
+  ],
+  "features": [
+    "Automatic note summarization",
+    "Flask API integration"
+  ],
+  "responsibilities": [
+    "Built NLP summarization workflow",
+    "Integrated Flask APIs"
+  ],
+  "tools": [
+    "Flask",
+    "Python"
+  ],
+  "related_topics": [
+    "NLP",
+    "AI Summarization"
+  ],
+  "related_projects": [],
+  "experience_level": "intermediate",
+  "role": "ML Engineer",
+  "year": 2025,
+  "priority": 7
+}

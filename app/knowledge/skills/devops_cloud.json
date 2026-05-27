@@ -1,0 +1,53 @@
+{
+  "id": "skills_devops_cloud",
+  "type": "skills",
+  "title": "DevOps and Cloud Skills",
+  "summary": "Cloud and deployment engineering skills using AWS, Google Cloud, GitHub, and EC2 systems.",
+  "description": "Experience deploying AI systems and backend workflows using AWS EC2, Google Cloud Platform, GitHub workflows, and cloud-based application infrastructure.",
+  "tags": [
+    "AWS",
+    "Cloud",
+    "EC2",
+    "Deployment",
+    "DevOps"
+  ],
+  "technologies": [
+    "AWS EC2",
+    "Google Cloud Platform",
+    "GitHub"
+  ],
+  "concepts": [
+    "Cloud Deployment",
+    "Infrastructure Hosting",
+    "Distributed Access"
+  ],
+  "keywords": [
+    "aws ec2",
+    "cloud engineering",
+    "deployment systems"
+  ],
+  "semantic_terms": [
+    "cloud-hosted workflows",
+    "distributed deployment"
+  ],
+  "retrieval_terms": [
+    "cloud deployment engineer",
+    "AWS backend hosting"
+  ],
+  "features": [
+    "Cloud deployment",
+    "AI hosting workflows"
+  ],
+  "tools": [
+    "AWS",
+    "Google Cloud",
+    "GitHub"
+  ],
+  "related_projects": [
+    "project_autonomous_qa_agent",
+    "project_peanut_2"
+  ],
+  "experience_level": "intermediate",
+  "role": "Cloud Engineer",
+  "priority": 8
+}

@@ -1,0 +1,111 @@
+{
+  "id": "experience_supervity_ai_hackathon",
+  "type": "experience",
+  "title": "Supervity AI Hackathon 2026",
+  "organization": "Supervity x PythonGuru",
+  "event_type": "AI Hackathon",
+  "project_title": "AI Sales Call Analyst",
+  "location": "Vignan's Foundation for Science, Technology & Research",
+  "year": 2026,
+  "priority": 10,
+  "experience_level": "advanced_intermediate",
+  "role": "Solo AI Developer",
+  "summary": "Participated in AI Hackathon 2026 and developed an AI Sales Call Analyst system for extracting medical call insights and next-step recommendations using AI workflows and automation systems.",
+  "description": "Built an AI Sales Call Analyst system during the AI Hackathon 2026 conducted collaboratively by Supervity and PythonGuru. The system focused on analyzing medical-domain sales or conversation calls, generating contextual insights, extracting actionable information, and producing next-step recommendations. Integrated automation workflows with Telegram polling systems for real-time updates using n8n automation pipelines.",
+  "tags": [
+    "AI",
+    "Hackathon",
+    "LLMs",
+    "Automation",
+    "n8n",
+    "AI Analytics",
+    "Semantic Retrieval",
+    "Medical AI",
+    "Conversational AI",
+    "Workflow Automation"
+  ],
+  "technologies": [
+    "Python",
+    "LLMs",
+    "n8n",
+    "Telegram",
+    "Automation Workflows"
+  ],
+  "architecture": [
+    "AI Analysis Pipeline",
+    "Automation Workflow Architecture",
+    "Conversational AI System",
+    "Real-Time Polling Workflow"
+  ],
+  "concepts": [
+    "Conversational AI",
+    "AI-Based Insight Extraction",
+    "Workflow Automation",
+    "Contextual Recommendations",
+    "Medical Insight Generation"
+  ],
+  "keywords": [
+    "supervity hackathon",
+    "ai sales call analyst",
+    "medical ai analysis",
+    "telegram automation",
+    "n8n workflows"
+  ],
+  "semantic_terms": [
+    "context-aware call analysis",
+    "automation-driven AI workflows",
+    "real-time conversational processing",
+    "AI insight extraction systems"
+  ],
+  "retrieval_terms": [
+    "AI hackathon projects",
+    "call analysis AI systems",
+    "automation AI workflows",
+    "medical conversational AI"
+  ],
+  "features": [
+    "AI-powered call analysis",
+    "Medical-domain insight extraction",
+    "Next-step recommendation generation",
+    "Telegram real-time polling updates",
+    "Workflow automation integration"
+  ],
+  "responsibilities": [
+    "Designed AI analysis workflow",
+    "Built conversational insight system",
+    "Integrated Telegram automation",
+    "Implemented n8n polling workflows",
+    "Developed contextual recommendation pipeline"
+  ],
+  "tools": [
+    "Python",
+    "n8n",
+    "Telegram",
+    "LLMs"
+  ],
+  "achievements": [
+    "Participated as solo AI developer",
+    "Reached Top 15 teams in AI Hackathon 2026"
+  ],
+  "certificate_metadata": {
+    "certificate_title": "Certificate of Participation",
+    "certificate_provider": "Supervity x PythonGuru",
+    "event_name": "AI Hackathon 2026"
+  },
+  "related_topics": [
+    "Conversational AI",
+    "Automation Systems",
+    "AI Analytics",
+    "Semantic AI Workflows"
+  ],
+  "related_projects": [
+    "project_ai_sales_call_intelligence"
+  ],
+  "metadata": {
+    "semantic_search_enabled": true,
+    "metadata_filtering_enabled": true,
+    "hybrid_retrieval_enabled": true,
+    "vector_embedding_ready": true,
+    "knowledge_graph_expandable": true
+  }
+}

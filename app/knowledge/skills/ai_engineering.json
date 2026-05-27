@@ -1,0 +1,72 @@
+{
+  "id": "skills_ai_engineering",
+  "type": "skills",
+  "title": "AI Engineering Skills",
+  "summary": "AI engineering capabilities focused on Retrieval-Augmented Generation, semantic retrieval, local LLM orchestration, and agentic AI workflows.",
+  "description": "Core AI engineering skill set developed through RAG systems, semantic retrieval projects, local LLM experimentation, automation systems, and contextual AI workflows.",
+  "tags": [
+    "AI",
+    "RAG",
+    "LLMs",
+    "LangChain",
+    "LangGraph",
+    "Agentic AI",
+    "Semantic Retrieval"
+  ],
+  "technologies": [
+    "LangChain",
+    "LangGraph",
+    "Ollama",
+    "ChromaDB",
+    "Hugging Face",
+    "Python"
+  ],
+  "concepts": [
+    "Retrieval-Augmented Generation",
+    "Semantic Search",
+    "Context Injection",
+    "Prompt Engineering",
+    "Agentic AI",
+    "Memory Workflows"
+  ],
+  "keywords": [
+    "rag engineering",
+    "llm systems",
+    "semantic retrieval",
+    "agentic ai"
+  ],
+  "semantic_terms": [
+    "context-aware generation",
+    "retrieval orchestration",
+    "semantic grounding"
+  ],
+  "retrieval_terms": [
+    "AI engineering skills",
+    "RAG developer",
+    "LLM systems engineer"
+  ],
+  "features": [
+    "RAG workflow engineering",
+    "Local LLM orchestration",
+    "Semantic retrieval pipelines"
+  ],
+  "tools": [
+    "LangChain",
+    "LangGraph",
+    "Ollama",
+    "Hugging Face"
+  ],
+  "related_topics": [
+    "Semantic Search",
+    "Vector Databases",
+    "AI Systems"
+  ],
+  "related_projects": [
+    "project_peanut_2",
+    "project_fresher_nav",
+    "project_autonomous_qa_agent"
+  ],
+  "experience_level": "advanced_intermediate",
+  "role": "AI Systems Engineer",
+  "priority": 10
+}

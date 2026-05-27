@@ -1,0 +1,52 @@
+{
+  "id": "skills_frontend_engineering",
+  "type": "skills",
+  "title": "Frontend Engineering Skills",
+  "summary": "Frontend engineering experience building responsive interfaces and integrating backend APIs.",
+  "description": "Experience building responsive React.js interfaces and integrating backend APIs within MERN-based architectures and AI systems.",
+  "tags": [
+    "Frontend",
+    "React",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "technologies": [
+    "React.js",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "concepts": [
+    "Responsive Design",
+    "Frontend APIs",
+    "Component Engineering"
+  ],
+  "keywords": [
+    "react frontend",
+    "responsive ui",
+    "frontend engineering"
+  ],
+  "semantic_terms": [
+    "component-based ui",
+    "frontend integration"
+  ],
+  "retrieval_terms": [
+    "React developer",
+    "frontend systems engineer"
+  ],
+  "features": [
+    "Responsive interfaces",
+    "API integration"
+  ],
+  "tools": [
+    "React.js"
+  ],
+  "related_projects": [
+    "project_shopez",
+    "project_fresher_nav"
+  ],
+  "experience_level": "intermediate",
+  "role": "Frontend Engineer",
+  "priority": 7
+}

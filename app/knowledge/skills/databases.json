@@ -1,0 +1,53 @@
+{
+  "id": "skills_databases",
+  "type": "skills",
+  "title": "Database Skills",
+  "summary": "Database engineering experience across SQL, MongoDB, and semantic vector retrieval systems.",
+  "description": "Experience working with MongoDB, MySQL, vector databases, semantic retrieval systems, and database-driven backend architectures.",
+  "tags": [
+    "Databases",
+    "MongoDB",
+    "SQL",
+    "MySQL",
+    "Backend Engineering"
+  ],
+  "technologies": [
+    "MongoDB",
+    "MySQL",
+    "SQL",
+    "ChromaDB"
+  ],
+  "concepts": [
+    "CRUD Operations",
+    "Database Integration",
+    "Semantic Storage"
+  ],
+  "keywords": [
+    "mongodb",
+    "sql",
+    "database engineering"
+  ],
+  "semantic_terms": [
+    "database-backed retrieval",
+    "semantic storage systems"
+  ],
+  "retrieval_terms": [
+    "database developer",
+    "MongoDB backend systems"
+  ],
+  "features": [
+    "MongoDB integration",
+    "Database optimization"
+  ],
+  "tools": [
+    "MongoDB",
+    "MySQL"
+  ],
+  "related_projects": [
+    "project_shopez",
+    "project_fresher_nav"
+  ],
+  "experience_level": "advanced_intermediate",
+  "role": "Database Engineer",
+  "priority": 9
+}

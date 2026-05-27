@@ -1,0 +1,50 @@
+{
+  "id": "skills_computer_vision",
+  "type": "skills",
+  "title": "Computer Vision Skills",
+  "summary": "Computer vision and object detection skills using YOLOv8 and custom datasets.",
+  "description": "Experience building weather classification systems using YOLOv8, dataset fine-tuning, model training, and real-time inference workflows.",
+  "tags": [
+    "Computer Vision",
+    "YOLOv8",
+    "AI",
+    "Object Detection"
+  ],
+  "technologies": [
+    "YOLOv8",
+    "Python",
+    "Google Colab"
+  ],
+  "concepts": [
+    "Object Detection",
+    "Dataset Training",
+    "Model Fine-Tuning"
+  ],
+  "keywords": [
+    "computer vision",
+    "yolov8",
+    "weather detection"
+  ],
+  "semantic_terms": [
+    "real-time inference",
+    "vision workflows"
+  ],
+  "retrieval_terms": [
+    "YOLO computer vision",
+    "object detection engineering"
+  ],
+  "features": [
+    "Real-time weather detection",
+    "Custom dataset training"
+  ],
+  "tools": [
+    "Google Colab",
+    "Python"
+  ],
+  "related_projects": [
+    "project_weather_detection_yolov8"
+  ],
+  "experience_level": "intermediate",
+  "role": "Computer Vision Engineer",
+  "priority": 7
+}

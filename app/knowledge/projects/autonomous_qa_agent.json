@@ -1,0 +1,93 @@
+{
+  "knowledge/projects/autonomous_qa_agent.json": {
+    "id": "project_autonomous_qa_agent",
+    "type": "project",
+    "title": "Autonomous QA Agent",
+    "summary": "RAG-powered autonomous testing pipeline for semantic Selenium test generation using FastAPI and ChromaDB.",
+    "description": "Developed an autonomous QA pipeline deployed on AWS EC2 using FastAPI, Selenium, Streamlit, and ChromaDB. The system analyzes DOM structures and retrieves semantic context from uploaded HTML and documentation to generate execution-ready Selenium scripts.",
+    "tags": [
+      "AI",
+      "RAG",
+      "FastAPI",
+      "ChromaDB",
+      "Automation",
+      "AWS",
+      "Backend Engineering",
+      "Semantic Retrieval",
+      "Testing Systems"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "AWS EC2",
+      "Selenium",
+      "Streamlit",
+      "ChromaDB",
+      "RAG"
+    ],
+    "architecture": [
+      "Semantic Retrieval Pipeline",
+      "Automation Backend",
+      "RAG Workflow",
+      "DOM Analysis System"
+    ],
+    "concepts": [
+      "Retrieval-Augmented Generation",
+      "Automation Pipelines",
+      "Semantic Context Retrieval",
+      "Vector Search",
+      "Execution Automation"
+    ],
+    "keywords": [
+      "autonomous qa",
+      "selenium rag",
+      "fastapi automation",
+      "semantic testing",
+      "vector retrieval"
+    ],
+    "semantic_terms": [
+      "semantic automation",
+      "context-aware testing",
+      "retrieval orchestration",
+      "document-grounded automation"
+    ],
+    "retrieval_terms": [
+      "FastAPI Selenium RAG",
+      "AWS autonomous testing",
+      "semantic QA pipeline"
+    ],
+    "features": [
+      "DOM structure analysis",
+      "Execution-ready Selenium generation",
+      "Semantic retrieval using ChromaDB",
+      "HTML/document ingestion"
+    ],
+    "responsibilities": [
+      "Designed automation architecture",
+      "Integrated vector retrieval workflows",
+      "Built FastAPI backend services",
+      "Implemented semantic testing pipeline"
+    ],
+    "tools": [
+      "FastAPI",
+      "AWS",
+      "Selenium",
+      "Streamlit",
+      "GitHub"
+    ],
+    "related_topics": [
+      "Semantic Retrieval",
+      "Automation Systems",
+      "Backend APIs",
+      "AI Testing"
+    ],
+    "related_projects": [
+      "project_peanut_2",
+      "project_fresher_nav"
+    ],
+    "experience_level": "advanced_intermediate",
+    "role": "AI Backend Engineer",
+    "year": 2025,
+    "priority": 9
+  }
+}

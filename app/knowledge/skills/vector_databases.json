@@ -1,0 +1,52 @@
+{
+  "id": "skills_vector_databases",
+  "type": "skills",
+  "title": "Vector Database Skills",
+  "summary": "Semantic vector retrieval and embedding storage experience using ChromaDB and retrieval pipelines.",
+  "description": "Experience building semantic retrieval systems using ChromaDB for Retrieval-Augmented Generation, contextual search, semantic retrieval, and grounding workflows.",
+  "tags": [
+    "Vector Databases",
+    "ChromaDB",
+    "RAG",
+    "Semantic Retrieval"
+  ],
+  "technologies": [
+    "ChromaDB",
+    "LangChain",
+    "Ollama"
+  ],
+  "concepts": [
+    "Vector Retrieval",
+    "Semantic Search",
+    "Embedding Storage"
+  ],
+  "keywords": [
+    "chromadb",
+    "vector search",
+    "semantic retrieval"
+  ],
+  "semantic_terms": [
+    "embedding retrieval",
+    "semantic indexing"
+  ],
+  "retrieval_terms": [
+    "vector database engineering",
+    "semantic search systems"
+  ],
+  "features": [
+    "Embedding-based retrieval",
+    "Context grounding"
+  ],
+  "tools": [
+    "ChromaDB",
+    "LangChain"
+  ],
+  "related_projects": [
+    "project_fresher_nav",
+    "project_autonomous_qa_agent",
+    "project_commander_nova"
+  ],
+  "experience_level": "advanced_intermediate",
+  "role": "Retrieval Engineer",
+  "priority": 10
+}

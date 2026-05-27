@@ -1,0 +1,53 @@
+{
+  "id": "skills_automation_systems",
+  "type": "skills",
+  "title": "Automation Systems Skills",
+  "summary": "Automation-focused engineering skills for autonomous workflows, AI orchestration, and testing systems.",
+  "description": "Experience building automation pipelines, AI-driven workflows, Selenium execution systems, and autonomous semantic retrieval processes.",
+  "tags": [
+    "Automation",
+    "Selenium",
+    "AI",
+    "Backend Engineering"
+  ],
+  "technologies": [
+    "Python",
+    "Selenium",
+    "FastAPI",
+    "Streamlit"
+  ],
+  "concepts": [
+    "Automation Pipelines",
+    "Execution Workflows",
+    "Testing Systems"
+  ],
+  "keywords": [
+    "automation systems",
+    "selenium workflows",
+    "AI automation"
+  ],
+  "semantic_terms": [
+    "workflow automation",
+    "autonomous execution"
+  ],
+  "retrieval_terms": [
+    "AI automation engineering",
+    "testing automation systems"
+  ],
+  "features": [
+    "Autonomous execution",
+    "Workflow automation",
+    "Semantic testing systems"
+  ],
+  "tools": [
+    "Selenium",
+    "FastAPI",
+    "Python"
+  ],
+  "related_projects": [
+    "project_autonomous_qa_agent"
+  ],
+  "experience_level": "intermediate",
+  "role": "Automation Engineer",
+  "priority": 8
+}

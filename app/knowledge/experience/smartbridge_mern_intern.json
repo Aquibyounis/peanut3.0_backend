@@ -1,0 +1,82 @@
+{
+  "knowledge/experience/smartbridge_mern_intern.json": {
+    "id": "experience_smartbridge_mern",
+    "type": "experience",
+    "title": "SmartBridge MERN Full Stack Intern",
+    "summary": "Full stack MERN internship focused on e-commerce engineering, API integration, MongoDB workflows, and frontend-backend integration.",
+    "description": "Worked as a MERN full stack intern contributing to the ShopEZ e-commerce platform. Developed responsive React components, integrated backend APIs, improved MongoDB synchronization workflows, and collaborated within Agile delivery cycles.",
+    "tags": [
+      "MERN",
+      "Backend Engineering",
+      "MongoDB",
+      "React",
+      "Node.js",
+      "Express",
+      "API Integration"
+    ],
+    "technologies": [
+      "MongoDB",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "JavaScript"
+    ],
+    "architecture": [
+      "MERN Architecture",
+      "REST API Backend",
+      "Frontend Integration"
+    ],
+    "concepts": [
+      "Full Stack Development",
+      "Database Optimization",
+      "Frontend Engineering",
+      "Backend APIs"
+    ],
+    "keywords": [
+      "mern internship",
+      "mongodb engineering",
+      "backend api integration",
+      "react frontend"
+    ],
+    "semantic_terms": [
+      "full stack architecture",
+      "frontend backend integration",
+      "database workflow optimization"
+    ],
+    "retrieval_terms": [
+      "MERN engineering experience",
+      "MongoDB API workflows",
+      "React backend integration"
+    ],
+    "features": [
+      "Responsive frontend engineering",
+      "Backend API integrations",
+      "MongoDB optimization",
+      "Agile MVP delivery"
+    ],
+    "responsibilities": [
+      "Built React components",
+      "Integrated backend APIs",
+      "Worked on MongoDB synchronization",
+      "Participated in Agile workflows"
+    ],
+    "tools": [
+      "GitHub",
+      "MongoDB",
+      "React",
+      "Node.js"
+    ],
+    "related_topics": [
+      "MERN Stack",
+      "Backend Systems",
+      "Database Engineering"
+    ],
+    "related_projects": [
+      "project_shopez"
+    ],
+    "experience_level": "intermediate",
+    "role": "Full Stack MERN Intern",
+    "year": 2024,
+    "priority": 8
+  }
+}

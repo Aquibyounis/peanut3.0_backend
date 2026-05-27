@@ -1,0 +1,19 @@
+{
+  "relationships": [
+    {
+      "source": "project_fresher_nav",
+      "target": "skills_ai_engineering",
+      "relationship": "uses"
+    },
+    {
+      "source": "project_fresher_nav",
+      "target": "architecture_rag_systems",
+      "relationship": "implements"
+    },
+    {
+      "source": "project_autonomous_qa_agent",
+      "target": "skills_backend_engineering",
+      "relationship": "depends_on"
+    }
+  ]
+}
