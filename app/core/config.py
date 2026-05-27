@@ -71,8 +71,9 @@ class Settings(BaseSettings):
         default="http://localhost:5173,http://127.0.0.1:5173",
         alias="CORS_ORIGINS",
     )
-    railway_public_url: str = Field(
-        default="http://localhost:8000", alias="RAILWAY_PUBLIC_URL"
+    # Render provides the public URL via RENDER_EXTERNAL_URL
+    render_public_url: str = Field(
+        default="http://localhost:8000", alias="RENDER_EXTERNAL_URL"
     )
 
     model_config = {

@@ -1,0 +1,28 @@
+# render.yaml – Render service definition
+services:
+  - type: web
+    name: peanut3-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: neon-db
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          name: upstash-redis
+          property: url
+      - key: QDRANT_URL
+        value: "<your-qdrant-cloud-url>"
+      - key: QDRANT_API_KEY
+        value: "<your-qdrant-api-key>"
+      - key: GROQ_API_KEY
+        value: "<your-groq-api-key>"
+      - key: QSTASH_TOKEN
+        value: "<your-upstash-qstash-token>"
+      - key: RENDER_EXTERNAL_URL
+        value: "https://peanut3-backend.onrender.com"
+      # Add any additional secrets here (JWT, SMTP, etc.)
