@@ -2,8 +2,8 @@
 Peanut 3.0 - Embedding utility
 
 Provides a single function `generate_embedding(text: str)` that returns a list[float]
-or None. The implementation chooses between a local FastEmbed model and a remote
-HuggingFace or Groq Inference endpoint based on environment variables.
+or None. The implementation uses a remote HuggingFace or Groq Inference endpoint 
+based on environment variables.
 
 - Remote mode is enabled by setting `USE_REMOTE_EMBED=1`.
 - Provider is selected via `REMOTE_EMBED_PROVIDER` ("hf" or "groq").
@@ -12,12 +12,12 @@ HuggingFace or Groq Inference endpoint based on environment variables.
 """
 import requests
 from app.core.logging.logger import get_logger
-from app.core.config import settings, EMBED_MODEL
+from app.core.config import settings
 
 logger = get_logger(__name__)
 
 # ----------------------------------------------------------------------
-# Remote HuggingFace embedding helper
+# Remote Groq embedding helper
 # ----------------------------------------------------------------------
 def _groq_remote_embedding(text: str) -> list[float] | None:
     # Groq uses the OpenAI-compatible API for embeddings.
@@ -27,14 +27,12 @@ def _groq_remote_embedding(text: str) -> list[float] | None:
         logger.error("Groq API key not configured for remote embedding")
         return None
     try:
-        import json
         endpoint = "https://api.groq.com/openai/v1/embeddings"
         payload = {"model": model, "input": [text]}
         headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
         resp = requests.post(endpoint, json=payload, headers=headers, timeout=30)
         resp.raise_for_status()
         data = resp.json()
-        # Expected response: {"data": [{"embedding": [...] }], ...}
         if "data" in data and data["data"]:
             return data["data"][0]["embedding"]
         logger.error("Groq response missing data field")
@@ -43,10 +41,7 @@ def _groq_remote_embedding(text: str) -> list[float] | None:
     return None
 
 # ----------------------------------------------------------------------
-# Remote Groq embedding helper
-# ----------------------------------------------------------------------
-# ----------------------------------------------------------------------
-# Remote OpenAI embedding helper
+# Remote OpenAI embedding helper (Fallback)
 # ----------------------------------------------------------------------
 def _openai_remote_embedding(text: str) -> list[float] | None:
     api_key = settings.openai_api_key
@@ -69,24 +64,31 @@ def _openai_remote_embedding(text: str) -> list[float] | None:
     return None
 
 # ----------------------------------------------------------------------
-# Local FastEmbed fallback (only imported if needed)
+# Remote HF embedding helper (Fallback)
 # ----------------------------------------------------------------------
-embedding_model = None
-if not settings.use_remote_embed:
+def _hf_remote_embedding(text: str) -> list[float] | None:
+    api_key = settings.hf_token
+    endpoint = settings.hf_embed_endpoint
+    if not api_key or not endpoint:
+        logger.error("HF token or endpoint not configured for remote embedding")
+        return None
     try:
-        from fastembed import TextEmbedding
-        logger.info("Initializing local fastembed model...", model=EMBED_MODEL)
-        embedding_model = TextEmbedding(model_name=EMBED_MODEL)
-        logger.info("Local fastembed model loaded successfully", model=EMBED_MODEL)
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+        payload = {"inputs": text}
+        resp = requests.post(endpoint, json=payload, headers=headers, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        if isinstance(data, list) and len(data) > 0:
+            return data
+        logger.error("HF embedding response format unexpected")
     except Exception as e:
-        logger.error("Failed to initialize fastembed model on startup", error=str(e))
-        embedding_model = None
+        logger.error("Remote HF embedding failed", error=str(e))
+    return None
 
 def generate_embedding(text: str) -> list[float] | None:
     """Return a vector embedding for *text*.
 
-    Uses the remote endpoint when `USE_REMOTE_EMBED` is true; otherwise falls
-    back to the locally‑loaded FastEmbed model.
+    Uses the remote endpoint specified by the environment variables.
     """
     if settings.use_remote_embed:
         provider = settings.remote_embed_provider.lower()
@@ -94,17 +96,11 @@ def generate_embedding(text: str) -> list[float] | None:
             return _hf_remote_embedding(text)
         elif provider == "groq":
             return _groq_remote_embedding(text)
+        elif provider == "openai":
+            return _openai_remote_embedding(text)
         else:
             logger.error(f"Unsupported remote embed provider: {provider}")
             return None
 
-    if not embedding_model:
-        logger.error("Embedding model not loaded, cannot generate embedding.")
-        return None
-    try:
-        embeddings = list(embedding_model.embed([text]))
-        if embeddings:
-            return embeddings[0].tolist()
-    except Exception as e:
-        logger.error("Local embedding generation failed", error=str(e))
+    logger.error("Local embeddings are disabled to save memory. Please use USE_REMOTE_EMBED=1.")
     return None
