@@ -34,6 +34,15 @@ class Settings(BaseSettings):
     groq_model: str = Field(default="llama-3.3-70b-versatile", alias="GROQ_MODEL")
     embed_model: str = Field(default="nomic-ai/nomic-embed-text-v1.5", alias="EMBED_MODEL")
 
+    # ── Remote Embedding Switch ──
+    use_remote_embed: bool = Field(default=False, alias="USE_REMOTE_EMBED")
+    remote_embed_provider: str = Field(default="hf", alias="REMOTE_EMBED_PROVIDER")  # "hf" or "openai"
+    hf_token: str = Field(default="", alias="HF_TOKEN")
+    hf_embed_endpoint: str = Field(default="", alias="HF_EMBED_ENDPOINT")
+    openai_api_key: str = Field(default="", alias="OPENAI_API_KEY")
+    remote_embed_model: str = Field(default="", alias="REMOTE_EMBED_MODEL")
+    groq_embed_model: str = Field(default="embed-3.5", alias="GROQ_EMBED_MODEL")
+
     # ── JWT / Auth ──
     jwt_secret_key: str = Field(
         default="peanut-super-secret-key-change-in-production",

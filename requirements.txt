@@ -6,7 +6,7 @@ psycopg2-binary
 asyncpg
 redis
 qdrant-client
-openai
+requests
 fastembed
 pydantic
 pydantic-settings
