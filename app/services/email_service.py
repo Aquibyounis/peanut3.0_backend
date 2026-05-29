@@ -24,10 +24,10 @@ class EmailService:
         designation: str,
         company: str,
         message: str,
-    ) -> bool:
+    ) -> tuple[bool, str]:
         """Send formatted contact inquiry email.
 
-        Returns True on success, False on failure.
+        Returns (True, "") on success, (False, error_msg) on failure.
         """
         try:
             html_content = render_contact_email(
@@ -44,7 +44,7 @@ class EmailService:
                     to=settings.contact_recipient_email,
                     from_name=name,
                 )
-                return True
+                return True, "Mock email sent successfully."
 
             msg = MIMEMultipart("alternative")
             msg["From"] = settings.smtp_from_email or settings.smtp_user
@@ -68,10 +68,10 @@ class EmailService:
                 to=settings.contact_recipient_email,
                 from_name=name,
             )
-            return True
+            return True, ""
         except Exception as e:
             logger.error("Email send failed", error=str(e))
-            return False
+            return False, str(e)
 
 
 email_service = EmailService()

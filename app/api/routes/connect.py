@@ -20,7 +20,7 @@ async def submit_contact(request: Request, data: ConnectRequest):
     await redis_client.lpush(rate_limit_key, str(time.time()))
     await redis_client.expire(rate_limit_key, 3600)  # 1 hour limit
         
-    success = await email_service.send_contact_email(
+    success, error_msg = await email_service.send_contact_email(
         name=data.name,
         email=data.email,
         designation=data.designation,
@@ -31,4 +31,4 @@ async def submit_contact(request: Request, data: ConnectRequest):
     if success:
         return ConnectResponse(success=True, message="Message sent successfully.")
     else:
-        raise HTTPException(status_code=500, detail="Failed to send message.")
+        raise HTTPException(status_code=500, detail=f"Failed to send message: {error_msg}")
