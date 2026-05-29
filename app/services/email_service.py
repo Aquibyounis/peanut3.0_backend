@@ -53,14 +53,17 @@ class EmailService:
 
             msg.attach(MIMEText(html_content, "html"))
 
+            use_tls = (settings.smtp_port == 465)
+            start_tls = (settings.smtp_port == 587)
+
             await aiosmtplib.send(
                 msg,
                 hostname=settings.smtp_host,
                 port=settings.smtp_port,
                 username=settings.smtp_user,
                 password=settings.smtp_password,
-                use_tls=False,
-                start_tls=True,
+                use_tls=use_tls,
+                start_tls=start_tls,
             )
 
             logger.info(
