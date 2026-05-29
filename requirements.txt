@@ -21,3 +21,4 @@ resend
 jinja2
 tiktoken
 email-validator
+discord.py

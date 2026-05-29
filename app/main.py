@@ -15,9 +15,11 @@ from app.api.routes.analytics import router as analytics_router
 from app.api.routes.health import router as health_router
 from app.api.routes.admin import router as admin_router
 from app.api.routes.webhooks import router as webhooks_router
+from app.api.routes.support import router as support_router
 
 # Import WebSocket router
 from app.api.websocket.chat_ws import router as ws_router
+from app.api.websocket.support_ws import router as ws_support_router
 
 # Import middleware
 from app.api.middleware.logging_middleware import RequestLoggingMiddleware
@@ -51,6 +53,16 @@ async def lifespan(app: FastAPI):
         logger.info("QStash producer started")
     except Exception as e:
         logger.warning("QStash connection failed", error=str(e))
+        
+    # Start Discord Bot
+    discord_task = None
+    if settings.discord_bot_token:
+        from app.discord.bot import bot
+        import asyncio
+        discord_task = asyncio.create_task(bot.start(settings.discord_bot_token))
+        logger.info("Discord bot started")
+    else:
+        logger.warning("DISCORD_BOT_TOKEN not set, Discord integration disabled")
     
     logger.info("Peanut 3.0 startup complete")
     yield
@@ -69,6 +81,12 @@ async def lifespan(app: FastAPI):
         await engine.dispose()
     except Exception:
         pass
+        
+    if discord_task:
+        discord_task.cancel()
+        from app.discord.bot import bot
+        await bot.close()
+        
     logger.info("Peanut 3.0 shutdown complete")
 
 app = FastAPI(
@@ -108,7 +126,9 @@ app.include_router(analytics_router, prefix="/analytics", tags=["Analytics"])
 app.include_router(health_router, prefix="/health", tags=["Health"])
 app.include_router(admin_router, prefix="/admin", tags=["Admin"])
 app.include_router(webhooks_router, tags=["Webhooks"])
+app.include_router(support_router, prefix="/support", tags=["Support"])
 app.include_router(ws_router, tags=["WebSocket"])
+app.include_router(ws_support_router, tags=["Support WebSocket"])
 
 @app.get("/")
 async def root():

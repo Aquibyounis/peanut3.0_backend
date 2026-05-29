@@ -72,6 +72,13 @@ class Settings(BaseSettings):
         default="aquibyounis2@gmail.com", alias="CONTACT_RECIPIENT_EMAIL"
     )
 
+    # ── Discord Live Support ──
+    discord_bot_token: str = Field(default="", alias="DISCORD_BOT_TOKEN")
+    discord_guild_id: str = Field(default="", alias="DISCORD_GUILD_ID")
+    discord_support_channel_id: str = Field(default="", alias="DISCORD_SUPPORT_CHANNEL_ID")
+    frontend_url: str = Field(default="http://localhost:5173", alias="FRONTEND_URL")
+    backend_url: str = Field(default="http://localhost:8000", alias="BACKEND_URL")
+
     # ── Application ──
     app_name: str = Field(default="Peanut 3.0", alias="APP_NAME")
     app_env: str = Field(default="development", alias="APP_ENV")
