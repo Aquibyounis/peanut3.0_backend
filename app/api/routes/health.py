@@ -47,9 +47,19 @@ async def health_detailed():
         
     # Check Groq
     try:
-        from app.llm.llm_service import llm_service
-        await llm_service.groq_provider.client.models.list()
-        status["services"]["groq"] = "connected"
+        import httpx
+        from app.core.config import settings
+        async with httpx.AsyncClient() as client:
+            resp = await client.get(
+                "https://api.groq.com/openai/v1/models",
+                headers={"Authorization": f"Bearer {settings.groq_api_key}"},
+                timeout=5.0
+            )
+            if resp.status_code == 200:
+                status["services"]["groq"] = "connected"
+            else:
+                status["services"]["groq"] = f"disconnected (HTTP {resp.status_code})"
+                status["status"] = "degraded"
     except Exception:
         status["services"]["groq"] = "disconnected"
         status["status"] = "degraded"
