@@ -3,9 +3,7 @@ Peanut 3.0 - Async Email Service
 Sends formatted contact inquiry emails via SMTP (aiosmtplib).
 """
 
-import aiosmtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import resend
 
 from app.core.config import settings
 from app.core.logging.logger import get_logger
@@ -38,42 +36,31 @@ class EmailService:
                 message=message,
             )
 
-            if not settings.smtp_user or not settings.smtp_password:
+            if not settings.resend_api_key:
                 logger.warning(
-                    "SMTP credentials not configured. Mocking email send.",
+                    "Resend API key not configured. Mocking email send.",
                     to=settings.contact_recipient_email,
                     from_name=name,
                 )
                 return True, "Mock email sent successfully."
 
-            msg = MIMEMultipart("alternative")
-            msg["From"] = settings.smtp_from_email or settings.smtp_user
-            msg["To"] = settings.contact_recipient_email
-            msg["Subject"] = f"Peanut AI - New Contact from {name} ({company})"
-
-            msg.attach(MIMEText(html_content, "html"))
-
-            use_tls = (settings.smtp_port == 465)
-            start_tls = (settings.smtp_port == 587)
-
-            await aiosmtplib.send(
-                msg,
-                hostname=settings.smtp_host,
-                port=settings.smtp_port,
-                username=settings.smtp_user,
-                password=settings.smtp_password,
-                use_tls=use_tls,
-                start_tls=start_tls,
-            )
+            resend.api_key = settings.resend_api_key
+            
+            response = resend.Emails.send({
+                "from": settings.resend_from_email,
+                "to": settings.contact_recipient_email,
+                "subject": f"Peanut AI - New Contact from {name} ({company})",
+                "html": html_content
+            })
 
             logger.info(
-                "Contact email sent",
+                "Contact email sent via Resend",
                 to=settings.contact_recipient_email,
                 from_name=name,
             )
             return True, ""
         except Exception as e:
-            logger.error("Email send failed", error=str(e))
+            logger.error("Email send failed via Resend", error=str(e))
             return False, str(e)
 
 

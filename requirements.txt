@@ -17,7 +17,7 @@ bcrypt
 alembic
 qstash
 structlog
-aiosmtplib
+resend
 jinja2
 tiktoken
 email-validator
